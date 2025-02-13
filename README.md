@@ -1,15 +1,17 @@
-# Create Helm chart for microservices
+# Deploy microservices with Helmfile
 
-The goal of this project is creating a Helm chart for microservices created in the previous project.
+The goal of this project is deployment of microservice using helmfile
 - `Kubernetes`
 - `Helm`
+- `Helmfile`
 
 Project description:
-- Create one shared `Helm chart` for all microservices to reuse common deployment and service configurations for the
-services
--------
+- Deploy microservices with `Helm`
+- Deploy microservices with `Helmfile`
+
+
+---------
 
 This project is based on sample microservices repository of Google at https://github.com/GoogleCloudPlatform/microservices-demo.
 
-The only code I take credit for is `config.yaml` which is made for deployment of microservices.
-
+The only code I take credit for are `config.yaml`, `values` directory, `helmcharts` and `helmfile` which are made for deployment of microservices with helm.
