@@ -11,5 +11,5 @@ services
 
 This project is based on sample microservices repository of Google at https://github.com/GoogleCloudPlatform/microservices-demo.
 
-The only code I take credit for is `config.yaml` which is made for deployment of microservices.
+The only code I take credit for are `config.yaml`, `values` directory and `helmcharts` which are made for deployment of microservices with helm.
 
